@@ -1,0 +1,48 @@
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-700.woff2") format("woff2");
+}
+
+:root {
+  /* Текст */
+  --color-heading: #202020;
+  --color-text: #444444;
+  --color-text-muted: #707070;
+
+  /* Цены */
+  --color-price: #e00000;
+  --color-price-old: var(--color-text-muted);
+
+  /* Бренд */
+  --color-accent: #80bc14;
+  --color-accent-light: #e9f2c3;
+  --color-highlight: #f5d730;
+  --color-cream: #fffee0;
+
+  /* Поверхности */
+  --color-bg: #ffffff;
+  --color-surface: #f6f7f8;
+  --color-border: #f0f0f0;
+
+  /* Шрифт */
+  --font-main: "Open Sans", Arial, sans-serif;
+}
