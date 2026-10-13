@@ -8,5 +8,88 @@
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main class="page">
+      <article class="product">
+        <div class="product__gallery">
+          <picture>
+            <source srcset="./images/ananasovyj-ulun.webp" type="image/webp" />
+            <img
+              class="product__image"
+              src="./images/ananasovyj-ulun.jpg"
+              alt="Ананасовый улун: скрученные листья с кусочками ананаса и папайи"
+              width="970"
+              height="970"
+              fetchpriority="high"
+            />
+          </picture>
+          <span class="product__badge">Скидка!</span>
+        </div>
+
+        <div class="product__info">
+          <a href="https://teaboom.ru/category-aromatizirovannyj-ulun" class="product__category">
+            Ароматизированный улун
+          </a>
+          <h1 class="product__title">Ананасовый улун</h1>
+
+          <fieldset class="product__packaging">
+            <legend class="product__label">Фасовка</legend>
+
+            <label class="product__option">
+              <input
+                class="product__radio"
+                type="radio"
+                name="packaging"
+                value="100"
+                data-sku="01306"
+                data-price="326.40"
+                data-old-price="349.20"
+                checked
+              />
+              <span class="product__option-text">100 г</span>
+            </label>
+
+            <label class="product__option">
+              <input
+                class="product__radio"
+                type="radio"
+                name="packaging"
+                value="500"
+                data-sku="01307"
+                data-price="1432"
+                data-old-price="1646"
+              />
+              <span class="product__option-text">500 г</span>
+            </label>
+
+            <label class="product__option">
+              <input
+                class="product__radio"
+                type="radio"
+                name="packaging"
+                value="1000"
+                data-sku="01308"
+                data-price="2064"
+                data-old-price="2592"
+              />
+              <span class="product__option-text">1000 г</span>
+            </label>
+
+            <label class="product__option">
+              <input
+                class="product__radio"
+                type="radio"
+                name="packaging"
+                value="5000"
+                data-sku="01309"
+                data-price="6320"
+                data-old-price="8710"
+              />
+              <span class="product__option-text">5000 г</span>
+            </label>
+          </fieldset>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
