@@ -100,3 +100,32 @@ button {
   padding-block: 24px;
   padding-inline: 16px;
 }
+
+.product {
+  display: grid;
+  gap: 24px;
+}
+
+@media (width >= 768px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "gallery info"
+      "gallery description";
+    align-items: start;
+    column-gap: 32px;
+  }
+
+  .product__gallery {
+    grid-area: gallery;
+  }
+
+  .product__info {
+    grid-area: info;
+  }
+
+  .product__description {
+    grid-area: description;
+  }
+}
