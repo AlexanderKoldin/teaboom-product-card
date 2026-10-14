@@ -129,3 +129,21 @@ button {
     grid-area: description;
   }
 }
+
+/* Галерея */
+
+.product__gallery {
+  position: relative;
+}
+
+.product__badge {
+  position: absolute;
+  inset-block-start: 16px;
+  inset-inline-start: 16px;
+  padding-block: 4px;
+  padding-inline: 12px;
+  font-weight: 600;
+  color: var(--color-heading);
+  background-color: var(--color-cream);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+}
