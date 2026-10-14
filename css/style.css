@@ -153,11 +153,11 @@ button {
 .product__info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
 }
 
 .product__category {
+  align-self: flex-start;
   font-size: 13px;
   color: var(--color-text-muted);
   text-decoration: none;
@@ -180,6 +180,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  max-inline-size: 420px;
 }
 
 .product__label {
@@ -190,12 +191,14 @@ button {
 }
 
 .product__option {
+  flex: 1;
   cursor: pointer;
 }
 
 .product__option-text {
   display: block;
-  padding-block: 8px;
+  text-align: center;
+  padding-block: 10px;
   padding-inline: 16px;
   font-weight: 700;
   background-color: var(--color-surface);
@@ -232,6 +235,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   gap: 16px 24px;
+  max-inline-size: 420px;
 }
 
 .product__prices {
@@ -253,6 +257,7 @@ button {
 }
 
 .product__button {
+  flex-grow: 1;
   padding-block: 12px;
   padding-inline: 32px;
   font-weight: 700;
