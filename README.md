@@ -4,6 +4,8 @@
 
 **Демо:** https://alexanderkoldin.github.io/teaboom-product-card/
 
+![Карточка товара на десктопе и на телефоне](docs/preview.jpg)
+
 ## Запуск
 
 Открыть ссылку на демо — или склонировать репозиторий и открыть `index.html` в браузере. Сборка и установка зависимостей не нужны.
@@ -76,6 +78,7 @@ git clone https://github.com/AlexanderKoldin/teaboom-product-card.git
 ├── js/main.js
 ├── fonts/          Open Sans 400 / 600 / 700, woff2
 ├── images/         фото товара, WebP + JPG
+├── docs/           скриншот для README
 └── favicon.ico
 ```
 
