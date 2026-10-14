@@ -1,25 +1,25 @@
 @font-face {
   font-display: swap;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/open-sans-400.woff2") format("woff2");
+  src: url('../fonts/open-sans-400.woff2') format('woff2');
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/open-sans-600.woff2") format("woff2");
+  src: url('../fonts/open-sans-600.woff2') format('woff2');
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/open-sans-700.woff2") format("woff2");
+  src: url('../fonts/open-sans-700.woff2') format('woff2');
 }
 
 :root {
@@ -44,7 +44,7 @@
   --color-border: #f0f0f0;
 
   /* Шрифт */
-  --font-main: "Open Sans", Arial, sans-serif;
+  --font-main: 'Open Sans', Arial, sans-serif;
 }
 
 *,
@@ -111,8 +111,8 @@ button {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
-      "gallery info"
-      "gallery description";
+      'gallery info'
+      'gallery description';
     align-items: start;
     column-gap: 32px;
   }
@@ -186,7 +186,6 @@ button {
   margin-block-end: 8px;
   font-weight: 600;
   color: var(--color-heading);
-
   padding: 0;
 }
 
