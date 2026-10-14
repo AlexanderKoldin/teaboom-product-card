@@ -94,6 +94,10 @@ button {
   white-space: nowrap;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 .page {
   max-width: 1200px;
   margin-inline: auto;
